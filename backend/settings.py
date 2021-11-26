@@ -21,7 +21,7 @@ SECRET_KEY = 'django-insecure-u5_-cotrc^s)bm)=1p0ru*db6!bj(5&r693v=2f78vf^*n&#6b
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://app-productividad-backend.herokuapp.com/"]
+ALLOWED_HOSTS = ["https://app-productividad-backend.herokuapp.com"]
 
 
 # Application definition
