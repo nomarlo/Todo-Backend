@@ -15,14 +15,11 @@ import django_heroku
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 SECRET_KEY = 'django-insecure-u5_-cotrc^s)bm)=1p0ru*db6!bj(5&r693v=2f78vf^*n&#6b'
-
 
 DEBUG = True
 
 ALLOWED_HOSTS = ["https://app-productividad-backend.herokuapp.com"]
-
 
 # Application definition
 
@@ -80,16 +77,14 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'todos',
-        'USER':'carlosandreslaraarias',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT':'',
-
+        'NAME': 'd2f5av1jdoo8p3',
+        'USER': 'ijfxdbwegayeyz',
+        'PASSWORD': '867bb51bf074f16588b07bd7a9e8a75b8b0eb0a25a7751aa59ec95c8cf27ea5b',
+        'HOST': 'ec2-50-16-241-192.compute-1.amazonaws.com',
+        'PORT': '5432',
 
     }
 }
-
 
 # Password validation
 
@@ -108,7 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 
 LANGUAGE_CODE = 'en-us'
@@ -120,7 +114,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 
