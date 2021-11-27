@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'graphene_django',
     'rest_framework',
     'todo',
 ]
@@ -76,11 +77,11 @@ REST_FRAMEWORK = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd2f5av1jdoo8p3',
-        'USER': 'ijfxdbwegayeyz',
-        'PASSWORD': '867bb51bf074f16588b07bd7a9e8a75b8b0eb0a25a7751aa59ec95c8cf27ea5b',
-        'HOST': 'ec2-50-16-241-192.compute-1.amazonaws.com',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'm4chfzpuyg1uh27w',
+        'USER': 'qqygpkb1tm7sulxv',
+        'PASSWORD': 'ioxyuq48rw2c96ik',
+        'HOST': 'w3epjhex7h2ccjxx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
 
     }
