@@ -31,7 +31,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'graphene_django',
     'rest_framework',
     'todo',
 ]
@@ -83,7 +82,6 @@ DATABASES = {
         'PASSWORD': 'ioxyuq48rw2c96ik',
         'HOST': 'w3epjhex7h2ccjxx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
-
     }
 }
 
